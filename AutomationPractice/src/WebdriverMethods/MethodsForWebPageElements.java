@@ -9,6 +9,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+// 1) We use findElements method just occasionally.
+// 2) findElements method will return list of all the matching elements 
+// from current page as per given element locator mechanism.
+// 3) If not found any element on current page as per given element 
+// locator mechanism, it will return empty list.
+
 public class MethodsForWebPageElements 
 {
 	//static List<WebElement> arrList = new ArrayList<>();
